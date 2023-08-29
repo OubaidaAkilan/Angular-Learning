@@ -54,9 +54,12 @@ It represents the instructions like (Functionality and behavior) we will give to
 
 1- Built-in directive (structural directives , attribute directives).
 
-    - Structural Directives are a way of handling how a component or element renders through the use of the ng-template tag. This allows us to run some code that decides what the final rendered output will be. Angular has a few built-in structural directives such as ngIf, ngFor, and ngSwitch.
+    - Structural Directives are a way of handling how a component or element renders through the use of the ng-template tag.
+     This allows us to run some code that decides what the final rendered output will be. Angular has a few built-in structural
+     directives such as ngIf, ngFor, and ngSwitch.
 
-    - Attribute directives are a way of changing the appearance or behavior of a component such as ngClass and ngStyle that work on any component or element.
+    - Attribute directives are a way of changing the appearance or behavior of a component such as ngClass and ngStyle that
+     work on any component or element.
 
 2- Costume directives.
 
