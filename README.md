@@ -1,6 +1,6 @@
 # Angular-Learning:
 
-## Angular ClI :
+## Angular CLI :
 
 1- To install the Angular CLI globally on your system.
 
