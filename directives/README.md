@@ -46,5 +46,5 @@ What is difference between ngstyle and ngclass? [Answer](https://stackoverflow.c
 
 - [Directives](https://angular-training-guide.rangle.io/directives)
 - How to use [ngfor,ngif together](https://www.angularjswiki.com/angular/how-to-use-ngfor-ngif-together-on-same-element-in-angular/#:~:text=Reasons%20Why%20we%20cannot%20use,first%20*ngIf%20or%20*ngFor%3F) on the same element in angular
-- [ngSwitch](https://scanskill.com/frontend/angular/types-of-directives-in-angular/)
+- [ngSwitch](https://scanskill.com/frontend/angular/types-of-directives-in-angular/#ngSwitch)
 - How you can use [ngIf and Else](https://ultimatecourses.com/blog/angular-ngif-else-then) together
