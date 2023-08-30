@@ -1,0 +1,20 @@
+<!-- 
+In this case, we're binding a string directly so we avoid wrapping the directive
+in square brackets. Also notice that the ngClass works with the class attribute
+to combine the final classes. 
+-->
+<p class="container" ngClass="centered-text underlined">Binding a string</p>
+
+<!-- Here, since we are binding to the ngClass directive by using an expression, we
+need to wrap the directive name in square brackets. Passing in an array is
+useful when you want to have a function put together the list of applicable
+class names. -->
+<p class="container" [ngClass]="['warning', 'big']">Binding an array</p>
+
+<!--
+An object can be bound to the directive. Angular applies each property name of
+that object to the component if that property's value is true. 
+-->
+<p class="container" [ngClass]="{ 'centered-text': true, underlined: false }">
+  Binding an object
+</p>

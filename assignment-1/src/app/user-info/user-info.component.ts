@@ -4,11 +4,15 @@ import { Component } from '@angular/core';
   selector: 'app-user-info',
   templateUrl: './user-info.component.html',
   styleUrls: ['./user-info.component.css'],
+  // standalone: true,
 })
 export class UserInfoComponent {
   username: string = '';
-  
-/*   // Solution One
+  show: boolean = false;
+  log: any[] = [];
+  alertMsg: string = '';
+
+  /*   // Solution One
   disabledBtn: boolean = true;
   
   setDisabledBtn(): boolean {
@@ -20,5 +24,14 @@ export class UserInfoComponent {
   resetUsername(): string {
     return (this.username = '');
   } */
- 
+
+  showDetailes(e: any): boolean {
+    // debugger
+    this.log.push({ MyDate: new Date() });
+    return (this.show = !this.show);
+  }
+
+  showAlert(value: any) {
+    // alert(value);
+  }
 }

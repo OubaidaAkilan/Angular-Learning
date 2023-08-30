@@ -1,0 +1,7 @@
+<p class="pragraphStyle" *ngIf="isLoggedIn; else loggedOut">
+  Welcome back, dude.
+</p>
+
+<ng-template #loggedOut>
+  <p ngClass="pragraphStyle">Please dude, login.</p>
+</ng-template>

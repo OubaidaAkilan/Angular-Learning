@@ -7,3 +7,10 @@
 
 <!-- Another Solution -->
 <button [disabled]="username === '' " (click)="username= '' ">Reset username</button>
+
+<br><br>
+<div>
+    <button (click)="showDetailes($event)">Display Details</button>
+    <p *ngIf="show">Secret password =tuna</p>
+    <div *ngFor="let logItem of log ; let i =index" (click)="showAlert(logItem)">{{logItem.MyDate }} {{i}}</div>
+</div>

@@ -1,0 +1,11 @@
+<button ngClass="primaryBtn" (click)="setShow()">Show the Tasks</button>
+
+
+
+<div *ngIf="show">
+  <p *ngFor="let task of todoList" [ngStyle]="pragraphStyle">{{ task }}</p>
+</div>
+
+<!-- <ng-container *ngIf="show">
+  <p *ngFor="let task of todoList" [ngStyle]="pragraphStyle">{{ task }}</p>
+</ng-container> -->

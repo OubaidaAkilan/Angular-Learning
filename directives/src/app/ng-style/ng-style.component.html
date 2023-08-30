@@ -1,0 +1,19 @@
+<p
+  style="width: 20%; margin: 50px auto; color: yellow"
+  [ngStyle]="{
+    backgroundColor: 'red',
+    color: 'white',
+    borderRadius: ngStyleBorderRadius,
+    padding: ngStylePadding,
+    borderBottom: ngStyleBottomBorder
+  }"
+>
+  I give styles directly and using property binding
+</p>
+
+<p
+  style="width: 20%; margin: 50px auto; color: yellow"
+  [ngStyle]="ngStyleAlert"
+>
+  ng-style works!
+</p>
