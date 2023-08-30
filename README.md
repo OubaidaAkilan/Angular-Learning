@@ -50,26 +50,5 @@ using this property we can access any element with HTML dom'
 
 ## Directives
 
-It represents the instructions like (Functionality and behavior) we will give to the DOM (HTML elements) and there are two directives.
+It represents the instructions like (Functionality and behavior) we will give to the DOM (HTML elements) and there are two [directives]().
 
-1- Built-in directive (structural directives , attribute directives).
-
-    - Structural Directives are a way of handling how a component or element renders through the use of the ng-template tag.
-     This allows us to run some code that decides what the final rendered output will be. Angular has a few built-in structural
-     directives such as ngIf, ngFor, and ngSwitch.
-
-    - Attribute directives are a way of changing the appearance or behavior of a component such as ngClass and ngStyle that
-     work on any component or element.
-
-2- Costume directives.
-
-ngIf: The ngIf directive conditionally adds or removes content from the DOM based on whether or not an expression is true or false (\*ngIf="exists").
-
-ngFor: The ngFor directive is a way of repeating a template by using each item of an iterable as that template's context (\*ngFor="let item of items")
-
-ngStyle:To modify a component or element's style attribute (
-[ngStyle]="{backgroundColor:getColor()}
-[ngStyle]="{backgroundColor:'red'}
-)
-
-ngClass:The ngClass directive changes the class attribute that is bound to the component or element it's attached to.( [ngClass]="{online: getServerStatus() === 'online'}" ).
