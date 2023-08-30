@@ -15,9 +15,10 @@ This directive has an \* sign before the directive, they are mainly used to crea
 
 #### Types of Structural Directives:
 
-- ngIf.
-- ngFor.
-- ngSwitch.
+- [ngIf](https://github.com/OubaidaAkilan/Angular-Learning/tree/directive-assignment/directives/src/app/ng-if).
+- [ngIfElse](https://github.com/OubaidaAkilan/Angular-Learning/tree/directive-assignment/directives/src/app/ng-if-else).
+- [ngFor](https://github.com/OubaidaAkilan/Angular-Learning/tree/directive-assignment/directives/src/app/ng-for).
+- [ngSwitch](https://github.com/OubaidaAkilan/Angular-Learning/tree/directive-assignment/directives/src/app/ng-switch).
 
 ngIf :It is used to display or hide an element based on the condition determined by the expression we pass into the directive.The element will be removed if the result of expression is return false.
 
@@ -35,9 +36,9 @@ are used to apply conditional style to elements, to show or hide elements, or to
 
 #### Types of Attribute Directive:
 
-- ngStyle : It is used to add or modify the style of DOM based on the some condition.we can use ngStyle directive to change the style of the element.
+- [ngStyle](https://github.com/OubaidaAkilan/Angular-Learning/tree/directive-assignment/directives/src/app/ng-style) : It is used to add or modify the style of DOM based on the some condition.we can use ngStyle directive to change the style of the element.
 
-- ngClass : Allows us to dynamically set and change the CSS classes for a DOM element.
+- [ngClass](https://github.com/OubaidaAkilan/Angular-Learning/tree/directive-assignment/directives/src/app/ng-class) : Allows us to dynamically set and change the CSS classes for a DOM element.
 
 What is difference between ngstyle and ngclass? [Answer](https://stackoverflow.com/questions/26919963/what-is-the-difference-between-ng-class-and-ng-style)
 
