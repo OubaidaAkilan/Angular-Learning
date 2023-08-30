@@ -50,5 +50,5 @@ using this property we can access any element with HTML dom'
 
 ## Directives
 
-It represents the instructions like (Functionality and behavior) we will give to the DOM (HTML elements) and there are two [directives]().
+It represents the instructions like (Functionality and behavior) we will give to the DOM (HTML elements) and there are two [directives](https://github.com/OubaidaAkilan/Angular-Learning/tree/directive-assignment/directives).
 
