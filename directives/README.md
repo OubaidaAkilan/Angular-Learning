@@ -42,9 +42,12 @@ are used to apply conditional style to elements, to show or hide elements, or to
 
 What is difference between ngstyle and ngclass? [Answer](https://stackoverflow.com/questions/26919963/what-is-the-difference-between-ng-class-and-ng-style)
 
+### Custom Directive
+
 ## Acknowledgements
 
 - [Directives](https://angular-training-guide.rangle.io/directives)
 - How to use [ngfor,ngif together](https://www.angularjswiki.com/angular/how-to-use-ngfor-ngif-together-on-same-element-in-angular/#:~:text=Reasons%20Why%20we%20cannot%20use,first%20*ngIf%20or%20*ngFor%3F) on the same element in angular
 - [ngSwitch](https://scanskill.com/frontend/angular/types-of-directives-in-angular/#ngSwitch)
-- How you can use [ngIf and Else](https://ultimatecourses.com/blog/angular-ngif-else-then) together
+- How you can use [ngIf and Else](https://ultimatecourses.com/blog/angular-ngif-else-then) together.
+- How to create [custom](https://codecraft.tv/courses/angular/custom-directives/creating-a-custom-directive/) directive.
